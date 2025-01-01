@@ -3,7 +3,7 @@ import { logo } from "./assets";
 
 const App = () => {
   // Target date for the countdown (replace with your desired launch date)
-  const targetDate = new Date("2024-12-31T00:00:00").getTime();
+  const targetDate = new Date("2025-02-28T00:00:00").getTime();
 
   // State to store remaining time
   const [timeLeft, setTimeLeft] = useState({
@@ -52,12 +52,12 @@ const App = () => {
 
         {/* Heading */}
         <h1 className="text-4xl font-bold text-earthy-brown mb-4">
-          We are Coming Soon!
+          Our Online Presence is Launching Soon!
         </h1>
 
         {/* Description */}
         <p className="text-xl text-olive mb-6">
-          We are working hard to bring you an amazing agritech experience. Stay tuned for more updates.
+            We officially launched on December 31, 2024, and are currently operating offline. Our team is working diligently to bring you an exceptional agritech experience. Stay tuned for more updates as we prepare to go live online!
         </p>
 
         {/* Countdown Timer Section */}
